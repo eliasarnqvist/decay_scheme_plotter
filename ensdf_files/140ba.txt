@@ -1,0 +1,171 @@
+140LA    140BA B- DECAY                1990ME03                  18NDS    201812
+140LA  H TYP=FUL$AUT=N. NICA$CIT=NDS 154, 1 (2018)$CUT=20-Nov-2018$             
+140LA c  Measured: |g (1991Ch05,1990Me03, 1984Ol08, 1982Ad02,1979Bo26,          
+140LA2c  1977De34,1977Ge12,1976Li06,1975Ha50,1970Ke09,1969Ka33),                
+140LA2c  ce (1991Ch05,1982Ad02,1966GeZZ,1961Ge01), |g|g and ce|g                
+140LA3c  (1982Ad02,1965Bu07,1961Ge01,1959Bo61), |g|g(|q)                        
+140LA4c  (1982Ad02,1965Zu03,1965Bu07,1964Ag01), |g(t) (1982Ad02,1965Bu07), |b   
+140LA5c  and |b|g (1965Bu07,1957Pe20,1956Se28), |b|g(|q) (1964Ag01)             
+140LA c  Measured I(K|a| x ray)=10.0 {I20}, I(K|b| x ray)|<2.0 {I3} (1969Ka33); 
+140LAxc  L| x ray, K| x ray (1991Ch05).                                         
+140LAxc  Calculated from this decay scheme data (absolute intensity per 100     
+140LAxc  decays): I(K|a| x ray)=1.249 {I34}, I(K|b| x ray)=0.301 {I10};         
+140LA c  The level scheme is that of 1990Me03                                   
+140LA c  As there are no levels known in between the highest observed level at  
+140LA2c  581 keV up to more than 1000 keV allowed by the Q(|b{+-}) value        
+140LA2c  the level scheme can be incomplete                                     
+140LA cL T(A)$From 1965Bu07 (by delayed coin technique)                         
+140LA cG M         |a(K)exp were normalized to |a(K)(M1)=0.24 for 162.672|g     
+140LA cG RI        From 1990Me03, except where noted otherwise.                 
+140LA2cG 1977De34, 1984Ol08, and 1990Me03 all give precise values for           
+140LA2cG I|g that are in agreement to each other. Only 1990Me03 give            
+140LA2cG values for all I|g's (while the other two only for the five most       
+140LA2cG intense I|g's) reason for which they were adopted here                 
+140LA cG E(B),RI(B)$Assignment to {+140}Ba decay is uncertain                   
+140LA cG E(C)$Differ by 3|s or more from calculated value                       
+140LA DG CC$FROM BrIcc v2.3b (16-Dec-2014) 2008Ki07, "Frozen Orbitals" appr.    
+140LA DG MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=1.00 FOR E2/M1,                 
+140LA2DG MR=1.00 FOR E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES            
+140LA cL J         Adopted values                                               
+140BA  P 0.0         0+                12.751 D  4              1047      8     
+140LA  N 0.2439    22          1.0       1.0                                    
+140LA cN NR        Absolute I(537|g)=24.39% {I22} (1977De34), no |b{+-} to 3-   
+140LAxcN (g.s.)                                                                 
+140LA PN                                                                     3  
+140LA  G 183.83     90.004    2                                             B   
+140LA cG           %I|g=0.0010 {I5}                                             
+140LA  G 275.18    180.0015   6                                             B   
+140LA cG           %I|g=0.0004 {I2}                                             
+140LA  G 699.89    130.0034   9                                             B   
+140LA cG           %I|g=0.0008 {I2}                                             
+140LA  L 0.0         3-                1.67858 D 21                             
+140LA2 L %B-=100                                                                
+140LA cL T,%B-$Adopted values                                                   
+140LA  L 29.9677    82-                0.25 NS   4                              
+140LA cL T         from 1982Ad02. Other: |<0.42 ns (1965Bu07)                   
+140LA  B             20      11            8.91  24                          1U 
+140LAS B EAV=361.6 32                                                           
+140LA cB IB        I(1020|b)/I(1006|b)=0.58 {I15} (1965Bu07)                    
+140LA cB E$1030 {I30} (1965Bu07), 1020 (1959Bo61)                               
+140LA  G 29.966    1 57.8    17M1+(E2)   0.009   LE    5.37                     
+140LA cG           %I|g=14.1 {I4}                                               
+140LA cG RI$57.8 {I17} can not be confirmed neither as from 1977De34 as given by
+140LA2cG 1994Pe19 nor from other reference. As I|g=60 {I4} from 1990Me03 would  
+140LA2cG produce negative |g feeding to g.s., this presumably determined        
+140LA2cG 1994Pe19 to adjust it to the value adopted here                        
+140LAS G  LC=4.26 6$MC=0.886 13                                                 
+140LAS G  NC=0.194 3$OC=0.0315 5$PC=0.00242 4                                   
+140LA cG M         L:M:N=260 {I30}:53 {I6}:13 {I2}; L1/L2=13.8 {I34}, L1/L3=55  
+140LA2cG {I9} (1982Ad02); L1:L2:L3:M:N=20:2:1:10:5 (1951Co39); L/M+N=2.4 {I3}   
+140LAxcG (1959Bo61)                                                             
+140LA cG E         from 1970Ke09                                                
+140LA  L 43.8132   181-                0.52 NS   14                         A   
+140LA  B             40      10            8.03  11                             
+140LAS B EAV=344.6 33                                                           
+140LA cB E$1020 (1965Bu07)                                                      
+140LA  G 13.846    155.0      7M1+E2     0.0100  55    54.4   18                
+140LA cG           %I|g=1.22 {I17}                                              
+140LAS G  LC=43.1 14$MC=9.0 3                                                   
+140LAS G  NC=1.97 7$OC=0.318 9$PC=0.0239 4                                      
+140LA cG RI        I|g=4.69 {I12} (1991Ch05)                                    
+140LA cG E         from 1970Ke09                                                
+140LA cG M         L:M:N=212 {I40}:46 {I9}:12 {I2}, L1:L2:L3=1000 {I33}:106     
+140LAxcG {I11}:31 {I8} (1982Ad02)                                               
+140LA  G 43.8        0.008   LT[E2]                    44.0                    ?
+140LA cG           %I|g=0.0010 {I10}                                            
+140LAS G  KC=7.08 10$LC=28.9 4$MC=6.46 9                                        
+140LAS G  NC=1.360 19$OC=0.188 3$PC=0.000465 7                                  
+140LA cG E         from E(level) difference                                     
+140LA cG RI        |g was not observed (1990Me03,1982Ad02). Others: 0.054 {I7}  
+140LA2cG (1991Ch05), 0.06 (1969Ka33), |<0.005 (1970Ke09); |<0.01 (1966Mo16)     
+140LA cG M         from Adopted                                                 
+140LA  L 63.168    204-                                                         
+140LA  G 63.17     220.00012  6M1                      4.06   7                 
+140LA cG           %I|g=0.00003 {I2}                                            
+140LAS G  KC=3.47 6$LC=0.473 9$MC=0.0983 17                                     
+140LAS G  NC=0.0216 4$OC=0.00351 6$PC=0.000271 5                                
+140LA cG M         from Adopted                                                 
+140LA  L 162.6585   82-                10 PS     LE                         A   
+140LA  B             3.8     2             9.30   3                          1U 
+140LAS B EAV=310.3 31                                                           
+140LA cB E$830 (1959Bo61), 870 (1965Bu07)                                       
+140LA  G 99.49      20.00008  5                                                 
+140LA cG           %I|g=0.00002 {I1}                                            
+140LA  G 118.837   3 0.25     3M1                      0.662                    
+140LA cG           %I|g=0.061 {I7}                                              
+140LAS G  KC=0.566 8$LC=0.0765 11$MC=0.01590 23                                 
+140LAS G  NC=0.00349 5$OC=0.000568 8$PC=4.41E-5 7                               
+140LA cG M         |a(K)exp=0.57 {I11}                                          
+140LA  G 132.687   1 0.83     2M1                      0.486                C   
+140LA3 G FL=29.9677                                                             
+140LA cG           %I|g=0.202 {I5}                                              
+140LAS G  KC=0.415 6$LC=0.0560 8$MC=0.01164 17                                  
+140LAS G  NC=0.00256 4$OC=0.000416 6$PC=3.23E-5 5                               
+140LA cG M         |a(K)exp=0.41 {I6} (1982Ad02)                                
+140LA  G 162.660   1 25.5     3M1+(E2)   0.08    LE    0.276                    
+140LA cG           %I|g=6.21 {I9}                                               
+140LAS G  KC=0.236 4$LC=0.0318 5$MC=0.00660 10                                  
+140LAS G  NC=0.001451 22$OC=0.000236 4$PC=1.83E-5 3                             
+140LA cG E         from 1990Me03. Other: 162.369 {I6} (1979Bo26)                
+140LA cG M         K:L:M=6.7 {I3}:1.00 {I6}:0.23 {I2} (1982Ad02); K:L:M=10:5:2  
+140LA2cG (1951Co39); K/L+M=3.5 {I8} (1959Bo61); L1/L2=13.3 {I7}, L1/L3=60 {I10} 
+140LAxcG (1966GeZZ)                                                             
+140LA cG RI        absolute I|g=6.21% {I8} (1977De34)                           
+140LA  L 467.5350  171-                7.7 PS    LE                         A   
+140LA  B             9.6     2             7.805 23                             
+140LAS B EAV=181.0 29                                                           
+140LA cB E$590 (1959Bo61), 594 (1965Bu07)                                       
+140LA  G 304.849   3 17.6     2M1+(E2)   +0.1    LE    0.0507                   
+140LA2 G FLAG=C                                                                 
+140LA cG           %I|g=4.29 {I6}                                               
+140LA2 G FL=162.6585                                                            
+140LAS G  KC=0.0434 6$LC=0.00574 8$MC=0.001191 17                               
+140LAS G  NC=0.000262 4$OC=4.27E-5 6$PC=3.35E-6 5                               
+140LA cG RI        absolute I|g=4.30% {I5} (1977De34)                           
+140LA cG M,RI      |a(K)exp=0.043 {I3}; K/L=9.9 {I26} (1982Ad02); L1/L2=14.6    
+140LA2cG {I7}, L1/L3|>23 (1966GeZZ); |a(K)exp=0.041 {I2} (1991Ch05)             
+140LA cG MR        from |g|g(|q) (1982Ad02), see also 1965Bu07                  
+140LA  G 423.722   1 12.7    1 M1                      0.0217                   
+140LA2 G FL=43.8132                                                             
+140LA cG           %I|g=3.10 {I4}                                               
+140LAS G  KC=0.0186 3$LC=0.00243 4$MC=0.000504 7                                
+140LAS G  NC=0.0001108 16$OC=1.81E-5 3$PC=1.430E-6 20                           
+140LA cG M         |a(K)exp=0.018 {I2} (1991Ch05); |a(K)exp=0.025 {I4}          
+140LA2cG (1982Ad02) K:L=0.32 {I4}:|?0.044 (1982Ad02)                            
+140LA cG RI        absolute I|g=3.15% {I4} (1977De34)                           
+140LA  G 437.575   2 7.91     4M1                      0.0200               C   
+140LA3 G FL=29.9677                                                             
+140LA cG           %I|g=1.93 {I2}                                               
+140LAS G  KC=0.01717 24$LC=0.00224 4$MC=0.000464 7                              
+140LAS G  NC=0.0001020 15$OC=1.664E-5 24$PC=1.317E-6 19                         
+140LA cG M         |a(K)exp=0.015 {I1} (1991Ch05)                               
+140LA cG RI        absolute I|g=1.93% {I4} (1977De34)                           
+140LA  G 467.5       0.002   LE                                                ?
+140LA cG           %I|g=0.0002 {I2}                                             
+140LA cG E$transition is not observed neither in 1982Ad02, nor in 1990Me03;     
+140LA2cG E|g from E(level) difference                                           
+140LA  L 581.073    90-                                                         
+140LA  B             24.7     3            7.07   3                             
+140LAS B EAV=140.7 28                                                           
+140LA cB E$480 {I30} (1965Bu07), 480 (1959Bo61)                                 
+140LA  G 113.51    3 0.066    5M1                      0.754                    
+140LA cG           %I|g=0.0161 {I12}                                            
+140LAS G  KC=0.644 9$LC=0.0871 13$MC=0.0181 3                                   
+140LAS G  NC=0.00398 6$OC=0.000647 9$PC=5.02E-5 7                               
+140LA cG M         |a(K)exp=0.62 {I25}                                          
+140LA  G 418.44     40.015    1                                                 
+140LA cG           %I|g=0.0037 {I3}                                             
+140LA  G 537.261   9 100.0    3M1                      0.01196                  
+140LA2 G FL=43.8132                                                             
+140LA cG E         from 1982Ad02. Other: 537.261 {I33} (1979Bo26)               
+140LA3 G %IG=24.39 22                                                           
+140LAS G  KC=0.01028 15$LC=0.001332 19$MC=0.000276 4                            
+140LAS G  NC=6.06E-5 9$OC=9.90E-6 14$PC=7.86E-7 11                              
+140LA cG RI,M      absolute I|g=24.39% {I22} (1977De34). Others: 23.4% {I10}    
+140LA2cG (1982Ad02); 25.7% {I6} (1975Ha50); |a(K)exp=0.0104 {I4};               
+140LA3cG K/L/M+N=1.04 {I4}/0.13 {I1}/0.06 {I1} (1991Ch05); |a(K)exp=0.0129      
+140LA3cG {I7}; K/L=6.8 {I7} (1982Ad02). Others: |a(K)exp=0.006 {I2},            
+140LAxcG K/L+=5.2 {I5} (1955Ro17); K/L+M=4 (1951Co39)                           
+140LA  G 551.08     40.0128   8                                                 
+140LA cG           %I|g=0.0031 {I2}                                             
+
