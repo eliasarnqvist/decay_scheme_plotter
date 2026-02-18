@@ -1,6 +1,6 @@
 # Decay Scheme Plotter
 
-Python script to parse and plot decay schemes from ([ENSDF](https://www.nndc.bnl.gov/ensdf/)) files. 
+Python script to parse and plot decay schemes from Evaluated Nuclear Structure Data ([ENSDF](https://www.nndc.bnl.gov/ensdf/)) files. 
 
 ## How to use
 
