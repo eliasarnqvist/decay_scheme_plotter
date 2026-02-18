@@ -1,0 +1,339 @@
+ 99TC    99MO B- DECAY                 1992GO22                  201707   201709
+ 99TC  H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 145, 25 (2017)$              
+ 99TC2 H CUT=1-Jul-2017$                                                        
+ 99TC D  Modified by E. Browne (May 7, 2010): BRICC, GTOL, LOGFT.               
+ 99TC D  Added 2014Ch12. E. Browne (3/22/2016) (1)                              
+ 99TC2D  B- feeding to 534 level: 0.0027% (previous evaluation) is WRONG.       
+ 99TC3D  GTOL gives: B-0.0027% (that is, ZERO %)                                
+ 99TC c  The decay scheme is based on 1992Go22.                                 
+ 99TC c  Measured: |g (1992Go22,1990Me15,1978MeZK); |g, |g|g, |g|g(|q)          
+ 99TC2c  (1982Si16); |g, |g|g (1969Co18); |g, |g|g (1968Va14); |g (1980Di16);   
+ 99TC3c  others: 1980Ya10, 1976Pr18, 1969Ba54 |g|g(|q)                          
+ 99TC5c  (1974Ga01,1973Bh02,1976Pr18,1972Ge04,1965An02,1970Gf01); ce, K| x      
+ 99TC6c  ray (1981Ge05,1973Le29,1971La12,1971Vo06,                              
+ 99TCxc  \1971Mc02,1969Ba54,1969Ba03,1969Vu03,1969Ra01,1969Ag04,                
+ 99TC2c  1968Va14,1992Go22). Others: 1950Bu91, 1951Me18,1954Ca63, 1954Le53,     
+ 99TCxc  1954Va03, 1958Es69, 1965Cr02, 1965Cr03, 1968Az03, 2003La27.            
+ 99TC c  |b spectra measured by 1971Na01 using magnetic spectrometer.           
+ 99TC2c  Deduced E|b and shape factors. No evidence was found for               
+ 99TC3c  a |b group with endpoint higher than 1214 keV.                         
+ 99TC c  Differential |b|g directional correlation investigated                 
+ 99TC2c  by 1968Ap01.                                                           
+ 99TC c  |g Others: 1996Ci05.                                                   
+ 99TC cG           The large discrepancies of the measurements of |g|g(|q)      
+ 99TC2cG involving the 181 level                                                
+ 99TC3cG as intermediate state are probably due to perturbations influenced     
+ 99TC3cG by the long half-life of the 181 level. Studying this effect,          
+ 99TC4cG 1974Ga01 obtained for the 3/2(740|g)5/2(181|g)9/2 cascade:             
+ 99TC5cG A{-2}=+0.126 {I4}, A{-4}=-0.005 {I6} (cubic metal);                    
+ 99TC6cG A{-2}=+0.123 {I3}, A{-4}=-0.010 {I4} (dilute solution);                
+ 99TC7cG A{-2}=+0.100 {I4}, A{-4}=-0.006 {I6} (original solution);              
+ 99TC8cG A{-2}=+0.061 {I3}, A{-4}=-0.004 {I5} (Mo(03) powder);                  
+ 99TC9cG a similar result was obtained by 1982Si16 who studied the              
+ 99TCXcG correlation with a solid source and two different solutions;           
+ 99TCYcG others: 1969Ja17, 1968ZaZZ, 1959Bo43, 1958Ra16.                        
+ 99TC cG           The influence of the chemical environment on the conversion  
+ 99TC2cG electron spectrum has been investigated by 1983Dr15 and 1982Ge01.      
+ 99TC cG           Investigations of the hyperfine field by use of |g|g(H,|q):  
+ 99TC2cG 1972Ra44, 1971Wi08.                                                    
+ 99TC cG $Measurements of x-rays:                                               
+ 99TC2cG E(K|a{-1}| x ray)=18.3671, E(K|a{-2}| x ray)=18.2506 {I6} (1968Va14)   
+ 99TC3cG I(K|a| x ray)=(78.7 {I32})|*I|g normalization, I(K|b| x ray)=(14.3     
+ 99TC4cG {I6})|*I|g normalization (1980Di16); I(K|a| x ray)=(79.8 {I25})*NR     
+ 99TC4cG (1992Go22). See 1981Ge05 for investigation of M x ray, xn, and Auger   
+ 99TC5cG spectra. The influence of the chemical state on I(K|a| x ray), I(K|b|  
+ 99TC6cG x ray) has been investigated by 1981Yo08.                              
+ 99TC cG E         From 1990Me15 and 1978MeZK, if not indicated otherwise.      
+ 99TC cG RI        From 1992Go22, if not indicated otherwise                    
+ 99TC cG RI(A)     From 1990Me15                                                
+ 99TC cG M         From |g|g(|q) and |a(K)exp, if not noted otherwise.          
+ 99TC cL J         Adopted values                                               
+ 99TC DG CC$FROM BrIcc v2.3b (16-Dec-2014) 2008Ki07, "Frozen Orbitals" appr.    
+ 99TC cG MR$If no value given it was assumed |d=1.00 for E2/M1,                 
+ 99TC2cG |d=1.00 for E3/M2 and |d=0.10 for the other multipolarities            
+ 99MO  P 0           1/2+              65.924 H   6             1357.8     9    
+ 99TC  N 0.1220    16          1.0       1.0                                    
+ 99TC cN NR        From |S(I(|g+ce) to g.s.)=100%                               
+ 99TC2cN if no |b{+-} feeding to the g.s. and 140.5-keV levels,                 
+ 99TC3cN as expected from the high degree of forbiddenness;                     
+ 99TC4cN using I|g(140.5|g)=744 (11) (in equilibrium with {+99}Tc(6.0 h)        
+ 99TC5cN and relative to I|g(739|g)=100),                                       
+ 99TC PN                                                                     3  
+ 99TC  G 89.4      2 0.025   17                                             A   
+ 99TC  G 455.84    130.011   5                                              A   
+ 99TC  G 490.53    150.009   3                                              A   
+ 99TC  G 581.30    120.008   4                                              A   
+ 99TC cG M$M1,E2 from |a(K)exp=0.0021 {I4} (1969Ba54)                           
+ 99TC  G 599.6     5 0.017   8                                                  
+ 99TC cG E,RI      from 1982Si16                                                
+ 99TC  L        0    9/2+              2.111E+5 Y12                             
+ 99TC cL T         adopted value                                                
+ 99TC  L 140.5110  107/2+              0.205 NS  4                              
+ 99TC cL E         From {+99}Tc IT decay (6.0072 h).                            
+ 99TC2 L G=+1.280 44 (1993Al23)                                                 
+ 99TC cL           g=+1.39 {I25} (1969In07, value recalculated in 1993Al23).    
+ 99TC2cL Other: 1993Zh41.                                                       
+ 99TC cL T         from 1993Al23. Other: 0.16 ns {I2} ce(t) (1971Mc02);         
+ 99TCxcL T{-1/2}<0.6 ns from |g(t) (1971Be73).                                  
+ 99TC  G 140.511   1           M1+E2     +0.129  35    0.113  3                 
+ 99TCS G  KC=0.0988 25$LC=0.0120 5$MC=0.00218 8                                 
+ 99TCS G  NC=0.000345 12$OC=2.22E-5 5                                           
+ 99TC cG           K/L=7.8 {I3} (weighted average of 8.1 {I5} (1969Ba03)        
+ 99TC2cG and 7.70 {I3} (1968Va14));                                             
+ 99TC3cG L1/L2=12 {I4}; L1/L3=18 {I7}; L2/L3=1.7 {I7} (1969Ag04).               
+ 99TC cG E         from curved-crystal measurement (1981He15); value adopted    
+ 99TC2cG in 2000He14.                                                           
+ 99TC3cG Others: E=140.512 {I4} (1972Ga37), 140.511 {I6} (1969Co18), 140.466    
+ 99TC4cG {I15} (1990Me15)                                                       
+ 99TC cG RI        E|g=140.511, I|g=744 {i11}, from I|g=704 {i45} (1969Co18),   
+ 99TC2cG I|g=730 (1974HeYW), I|g=743 {i19} (1978MoYU), I|g=747 {i12} (1980Di16),
+ 99TC3cG I|g=759 {i20} (1980Ya10), I|g=686 {i49} (1982Si16),                    
+ 99TC4cG I|g=752 {i28} (1985Ch42), I|g=755 {i26} (1990Me15), and                
+ 99TC5cG I|g=739 {i11} (1992Go22). recommended in 2014Ch12.                     
+ 99TC cG RI        I|g(140.5)=744 {i11} x 0.1220 {i16}=90.8% {i2}, per          
+ 99TC2cG 100 decays of {+99}Mo in equilibrium with {+99}Tc(6.0 h).              
+ 99TC3cG Uncertainty of 0.2% is due to the covariant relation between the       
+ 99TC4cG relative |g-ray intensity (744) and the normalization factor (0.1220), 
+ 99TC5cG the latter deduced from the decay scheme by evaluators.                
+ 99TC DG RI        -------------------------------------------------            
+ 99TC DG RI        Calculating decay-scheme normalization factor.               
+ 99TC DG RI        I(g+e)(142g)=0.183 (11)X[1+40.2(6)] = 7.5 (5)                
+ 99TC DG RI        I(g+e)(140g)=744(11)X[1+0.1181(21)] = 832 (12)               
+ 99TC DG RI        T1/2(99Mo)/[T1/2(99Mo) - T12/(99mTc)] = 1.1                  
+ 99TC DG RI        SUMOF (g+e)(GS) = 56.9 (8)                                   
+ 99TC DG RI        At transient equilibrium:                                    
+ 99TC DG RI        [I(g+e)(142g)/1.1+I(g+e)(140g)/1.1+SUMOF (g+e)(GS)]XN=100%   
+ 99TC DG RI        That is:                                                     
+ 99TC DG RI        [7.5(5)/1.1+832(12)/1.1+56.9 (8)]XN = 820 (11) X N = 100%    
+ 99TC DG RI        So the normalization factor is                               
+ 99TC DG RI        N = 100 / 820 (11) = 0.1220 (16)                             
+ 99TC DG RI        The absolute intensity of the 140-keV gamma ray is given by: 
+ 99TC DG RI        g(140) = 744 (11) X N                                        
+ 99TC DG RI        To avoid including twice the uncertainty of                  
+ 99TC2DG RI        the 140-keV gamma ray:                                       
+ 99TC DG RI$g(140)=744(11)X100/[7.5(5)/1.1+744(11)X1.1181(21)/1.1+56.9(8)]=     
+ 99TC DG RI$=100/[7.5(5)/(744(11)X1.1) + 1.1181(21)/1.1 + 56.9(8)/744(11)]=     
+ 99TC DG RI$=100/[0.0092(6)+1.016(2)+ 0.0765(15)]= 100/1.1017(26)=90.8 (2)%     
+ 99TC DG RI$The absolute intensity of the 140-keV gama ray is:                  
+ 99TC DG RI        g(140) = 90.8 (2)%                                           
+ 99TC DG RI$Notice that if we had not included the cancellation effect the      
+ 99TC DG RI        (incorrect) result would have been:                          
+ 99TC DG RI        g(140)%= 744 (11) X 0.1220 (16) = 90.8 (18)%,                
+ 99TC DG RI        TEN TIMES LARGER UNCERTAINTY                                 
+ 99TC DG RI$Something similar takes place with the beta-feeding to the 142-keV  
+ 99TC DG RI        level in 99TC.  The correct feeding  is:                     
+ 99TC DG RI        beta- = 82.2 (6)%                                            
+ 99TC cG MR        unweighted average of +0.118 {I6} from |g|g(|q) (1974Ga01),  
+ 99TC2cG 0.194 {I33} from |a(exp), and 0.07 {I7} from |a(K)exp; 0.31 {I2}       
+ 99TCxcG (1982Si16)                                                             
+ 99TC cG M         |a(K)exp: weighted average of 0.093 {I6}, 0.096 {I6} (both   
+ 99TC2cG 1971Vo06), 0.094 {I8} (1969Vu03), and 0.104 {I7} (1968Va14);           
+ 99TC3cG |a(exp): weighted average of 0.118 {I3} (1973Le29), and 0.122 {I5}     
+ 99TCxcG (1969Vu03).                                                            
+ 99TC  L 142.6836  111/2-              6.0072 H  9                           M1 
+ 99TC2 L %IT=99.9963 6$ %B-=0.0037 6                                            
+ 99TC cL T         From Adopted Levels, Gammas                                  
+ 99TC cL E         From {+99}Tc IT decay (6.0072 h).                            
+ 99TC  B             82.2    4             7.105  3                             
+ 99TCS B EAV=442.9 5                                                            
+ 99TC cB           E|b=1214 keV {I1}; I|b=84 (1971Na01).                        
+ 99TC cB IB$The low uncertainty in I|b is due to the covariant relation between 
+ 99TC2cB the |b{+-} intensity and the decay-scheme normalization factor.        
+ 99TC  G 2.1726    4           E3                      1.4E+10                  
+ 99TCS G  MC=1.211E10 17                                                        
+ 99TCS G  NC=1.596E9 23$OC=3.49E4 5                                             
+ 99TC cG           M2:M3:(M4+M5):(N2+N3):(N4+N5+O1)=                            
+ 99TC2cG 57.0 {i18}:100:47.2 {i10}:26.1 {i23}:4.4 {i5} (1981Ge05).              
+ 99TC3cG M2:M3:(M4+M5):N=56.4 {i20}:100:47.6 {i20}:29 {i5}; M4/M5=0.56 {i13}    
+ 99TCxcG (1971La12)                                                             
+ 99TC cG TI        792 {I13} in equilibrium deduced from decay-scheme           
+ 99TC2cG intensity balance.                                                     
+ 99TC cG E         from ce (1981Ge05). Others: 2.17 {I1} (1971La12), 2.15 {I3}  
+ 99TCxcG (1957Fr35).                                                            
+ 99TC  G 142.675   25          M4                      40.2                     
+ 99TCS G  KC=29.1 4$LC=9.06 13$MC=1.774 25                                      
+ 99TCS G  NC=0.269 4$OC=0.01069 15                                              
+ 99TC cG E$From 1990Me15 and 1978MeZK.                                          
+ 99TC cG RI        I|g=0.183 {i11}, from I|g=0.195 {i40}(1968Va14),             
+ 99TC2cG I|g=0.149 {i29} (1980Di16), and I|g=189 {i11}(1990Me15), recommended   
+ 99TC3cG in 2014Ch12.                                                           
+ 99TC cG RI        0.15 {i2} from I|g(142.6)/I|g(140.5)=0.00020 {i2} in         
+ 99TC2cG equilibrium deduced from K(142.6)/K(140.5)=0.075 {i8} (1969Ag04) (from 
+ 99TC3cG {+99}Tc it decay); others: I|g(142.6|g)/I|g(140.5|g)=0.00025 {i3}      
+ 99TC4cG (1990Me15,1978MeZK), 0.00020 {i3} (1980Di16), 0.00030 {i6} (1968Va14), 
+ 99TCxcG from |g-spectra in equilibrium.                                        
+ 99TC cG M         |a(K)exp=29 {i3}; K/L=2.9 {i5} (1969Ba03)                    
+ 99TC cG EKC       weighted average of 31 {i3} (1969Ba54) and 23 {i6}           
+ 99TCxcG (1968Va14).                                                            
+ 99TC  L 181.0939  105/2+              3.44 NS   3                              
+ 99TC2 L G=+1.446 20 (1993Al23)                                                 
+ 99TC cL           Other values: g=+1.316 {I25} (1971Wi08); +1.390 {I17}        
+ 99TCxcL (1995Hi06).                                                            
+ 99TC cL T         from 1993Al23. Other value: ce(t) 3.61 ns 7 (1971Mc02).      
+ 99TC2cL Others measured |g|g(t) or |b|g(t): 3.36 ns {I7} (1971Be73),           
+ 99TC3cL 3.60 ns {I9} (1971Bo13), 3.42 ns {I10} (1968Ra22), 3.40 ns {I10}       
+ 99TC4cL (1968Se02), 3.59 ns {I5} (1965An02), 3.45 ns {I6} (1965Me08), 3.57 ns  
+ 99TCxcL {I5} (1959Bo43).                                                       
+ 99TC  G 40.58323  178.51    25M1(+E2)   +0.008  8     3.72                     
+ 99TCS G  KC=3.24 5$LC=0.394 6$MC=0.0717 11                                     
+ 99TCS G  NC=0.01135 17$OC=0.000734 11                                          
+ 99TC cG RI        From I|g=8.68 {i27} (1980Di16), I|g=8.6 {i5} (1990Me15),     
+ 99TC2cG I|g=8.49 {i25}(1992Go22), recommended in 2014Ch12.                     
+ 99TC3cG Other: 7.7 {i6} (1982Si16).                                            
+ 99TC cG E$Value adopted in 2000He14. E|g=40.5845 {I16} (1990Me15, 1978MeZK).   
+ 99TC cG M         |a(K)exp=3.2 {I2} (1969Ra01). Other: 3.9 {I5} (1969Ba54);    
+ 99TCxcG K/L=8.3 {I9} (1969Ba03)                                                
+ 99TC cG MR        from |g|g(|q) (1974Ga01); |<0.025 (1982Si16)                 
+ 99TC  G 181.068   8 49.6    7 E2(+M3)   -0.002  7     0.1480                   
+ 99TCF G FL=0                                                                   
+ 99TCS G  KC=0.1252 18$LC=0.0188 3$MC=0.00344 5                                 
+ 99TCS G  NC=0.000523 8$OC=2.44E-5 4                                            
+ 99TC cG RI        From I|g=48.7 {i23} (1968Va14), I|g=49.9 {i34} (1969Co18),   
+ 99TC2cG I|g=49.6 {i42} (1974HeYW), I|g=49.1 {i16} (1978MoYU), I|g=50.1 {i7}    
+ 99TC3cG (1980Di16), I|g=49.8 (33) (1982Si16), I|g=48.7 {i13} (1985Ch42),       
+ 99TC4cG I|g=50.3 {i17} (1980Me15), I|g=49.4 {i8} (1992Go22), I|g=49.5 {i21}    
+ 99TC5cG (2003La27), recommended in 2014Ch12.                                   
+ 99TC cG MR        from |g|g(|q) (1974Ga01).                                    
+ 99TC cG M         |a(K)exp=0.126 {I7} (weighted average of 0.140 {I20}         
+ 99TC2cG (1969Ba54), 0.130 {I12} (1968Va14) and 0.12 {I1} (1971Vo06)); K/L=6.8  
+ 99TCxcG {I7} (1969Ba03)                                                        
+ 99TC  L 509.125   113/2-                                                       
+ 99TC  B                 1.16 2            8.373  8                             
+ 99TCS B EAV=289.7 4                                                            
+ 99TC cB           E|b=840 keV {I5}; I|b=2 (1971Na01).                          
+ 99TC  G 366.421   159.84    15M1                      0.00902                  
+ 99TCS G  KC=0.00791 11$LC=0.000914 13$MC=0.0001656 24                          
+ 99TCS G  NC=2.64E-5 4$OC=1.771E-6 25                                           
+ 99TC cG RI        From I|g=10.6 {i8} (1968Va14), I|g=10.7 {i6} (1969Co18),     
+ 99TC2cG I|g=10.0 {i9} (1974HeYW), I|g=9.8 {i3} (1978MoYU),                     
+ 99TC3cG I|g=9.52 {i32} (1980Di16), I|g=9.8 {i8} (1982Si16),                    
+ 99TC4cG I|g=9.92 {i25} (1990Me15), I|g=9.82 {i15} (1992Go22),                  
+ 99TC5cG I|g=9.8 {i4} (2003La27), recommended in 2014Ch12.                      
+ 99TC cG M         |a(K)exp=0.0076 {i10} (1969Ba54) (note obvious misprint in   
+ 99TCxcG 1969Ba54)                                                              
+ 99TC  L 534.44     7 (3/2+)                                                   ?
+ 99TC  G 391.7     4 0.026   5                                                 ?
+ 99TC cG E$from 1992Go22. Not in 1990Me15.                                      
+ 99TC  L 671.500   113/2-                                                       
+ 99TC  B                0.057 3            9.349 23                             
+ 99TCS B EAV=225.5 4                                                            
+ 99TC  G 162.370   150.098   5                                                  
+ 99TC cG RI        From I|g=0.073 {i22} (1974HeYW), I|g=0.067 {i15} (1978MoYU), 
+ 99TC2cG I|g=0.078 {i13} (1982Si16), I|g=0.097 {i5} (1990Me15),                 
+ 99TC3cG I|g=0.098 {i5} (1992Go22), I|g=0.110 {i6} (2003La27),                  
+ 99TC4cG recommended in 2014Ch12.                                               
+ 99TC  G 528.788   150.436   15M1,E2                   0.0040 3                 
+ 99TCS G  KC=0.00350 24$LC=0.00041 4$MC=7.5E-5 8                                
+ 99TCS G  NC=1.18E-5 11$OC=7.6E-7 4                                             
+ 99TC cG RI        From I|g=0.39 {i5} (1968Va14), I|g=0.49 {i5} (1969Co18),     
+ 99TC2cG I|g=0.36 {i4} (1974HeYW), I|g=0.43 {i6} (1978MoYU),                    
+ 99TC3cG I|g=0.44 {i4} (1982Si16), I|g=0.447 {i15}, I|g=0.47 {i2} (1992Go22),   
+ 99TC4cG I|g=0.411 {i16} (2003La27), recommended in 2014Ch12.                   
+ 99TC cG M         |a(K)exp=0.005 {i1} (1969Ba54)                               
+ 99TC  L 761.950   145/2+                                                       
+ 99TC  G 580.51     70.026   4                                                  
+ 99TCF G FL=181.0939                                                            
+ 99TC  G   621.771 240.15    3                                                  
+ 99TCF G FL=140.5110                                                            
+ 99TC  G 761.77     80.0033  3                                                  
+ 99TC  L 920.637   101/2+              0.1 NS    LT                             
+ 99TC cL T         from |b|g(t) (1968Se02). Others: <0.1 ns (1965Me08),         
+ 99TC2cL <0.2 ns (1971Be73).                                                    
+ 99TC  B                 16.4 3            6.210  9                             
+ 99TCS B EAV=133.2 4                                                            
+ 99TC cB           E|b=450 keV {I10}; I|b=14 (1971Na01).                        
+ 99TC  G 158.782   150.144   6                                                  
+ 99TCF G FL=761.950                                                             
+ 99TC cG RI        From I|g=0.10 {i3} (1969Co18), I|g=0.095 {i30} (1974HeYW),   
+ 99TC2cG I|g=0.112 {i15} (1978MoYU), I|g=0.11 {i4} (1982Si16),                  
+ 99TC3cG I|g=0.139 {i8} (1990Me15), I|g=0.156 {i6} (1992Go22),                  
+ 99TC4cG I|g=0.146 {i7} (2003La27), recommended in 2014Ch12.                    
+ 99TC  G 249.03     30.032   4                                                  
+ 99TC  G 411.491   150.123   6 E1                      0.00255                  
+ 99TCS G  KC=0.00225 4$LC=0.000254 4$MC=4.59E-5 7                               
+ 99TCS G  NC=7.28E-6 11$OC=4.78E-7 7                                            
+ 99TC cG RI        From I|g=0.13 {i8} (1969Co18), I|g=0.134 {i23} (1978MoYU),   
+ 99TC2cG I|g=0.14 {i2} (1982Si16), I|g=0.120 {i6} (1990Me15),                   
+ 99TC3cG and I|g=0.118 {i30} (2003La27), recommended in 2014Ch12.               
+ 99TC cG M         |a(K)exp=0.003 {I1} (1969Ba54)                               
+ 99TC  G 739.500   17100       E2                      1.71E-3                  
+ 99TCS G  KC=0.001501 21$LC=0.0001756 25$MC=3.18E-5 5                           
+ 99TCS G  NC=5.03E-6 7$OC=3.25E-7 5                                             
+ 99TC cG M         |a(K)exp=0.0016 {i3}                                         
+ 99TC2cG (weighted average of 0.0017 {i4} (1969Ba54) and 0.0016 {i4}            
+ 99TC3cG (1968Va14)); E2(+M1) from |a(K)exp but dipole excluded by J|p.         
+ 99TC  G 777.921   2035.3    5 E1                      5.85E-4                  
+ 99TCS G  KC=0.000515 8$LC=5.76E-5 8$MC=1.040E-5 15                             
+ 99TCS G  NC=1.654E-6 24$OC=1.111E-7 16                                         
+ 99TC cG RI        From I|g=35.1 {i24} (1968Va14), I|g=34.9 {i20} (1969Co18),   
+ 99TC2cG I|g=35.8 {i30} (1974HeYW), I|g=35.5 {i10} (1978MoYU),                  
+ 99TC3cG I|g=35.8 {i8} (1980Di16), I|g=34.8 {i19} (1982Si16),                   
+ 99TC4cG I|g=35.3 {i12} (1990Me15), I|g=35.1 {i5} (1992Go22),                   
+ 99TC5cG I|g=35.13 {i12} (2003La27), recommended in 2014Ch12.                   
+ 99TC cG M         |a(K)exp=0.00051 (1969Ba54)                                  
+ 99TC  L 1004.075  153/2(-)                                                     
+ 99TC  B                0.146 5            7.952 16                             
+ 99TCS B EAV=104.4 4                                                            
+ 99TC  G 242.29    8 0.021   4 [E1]                    0.01049                  
+ 99TCS G  KC=0.00922 13$LC=0.001053 15$MC=0.000190 3                            
+ 99TCS G  NC=3.00E-5 5$OC=1.92E-6 3                                             
+ 99TC  G 469.63     70.022   4                                                  
+ 99TC  G 822.972   151.10    2 E1                      5.21E-4                  
+ 99TCS G  KC=0.000459 7$LC=5.12E-5 8$MC=9.24E-6 13                              
+ 99TCS G  NC=1.472E-6 21$OC=9.90E-8 14                                          
+ 99TC cG RI        From I|g=1.04 {i8} (1968Va14), I|g=1.11 {i8} (1969Co18),     
+ 99TC2cG I|g=1.09 {i5} (1978MoYU), I|g=1.09 {i5} (1980Di16),                    
+ 99TC3cG I|g=1.10 {i7} (1982Si16), I|g=1.06 {i4} (1970Me15),                    
+ 99TC4cG I|g=1.10 {i2} (1992Go22), I|g=1.12 {i5} (2003La27),                    
+ 99TC5cG recommended in 2014Ch12.                                               
+ 99TC cG M         |a(K)exp=0.0004 {i1} from 1969Ba54                           
+ 99TC  G 861.2     9 0.006   3                                                  
+ 99TC cG E$from 1992Go22. Not in 1990Me15                                       
+ 99TC cG RI        0.005 {i3} (1982Si16), 0.006 {i2} (1969Co18)                 
+ 99TC  L 1072.23   17(7/2+)                                                     
+ 99TC  G 537.79    150.027   5                                                  
+ 99TC  L 1129.123  22(3/2)-                                                     
+ 99TC  B                0.012 1            8.42   4                             
+ 99TCS B EAV=63.9 4                                                             
+ 99TC cB           E|b=245; I|b=0.2 (1971Na01).                                 
+ 99TC  G 457.60    3 0.067   5 M1,E2                   0.0059 7                 
+ 99TCS G  KC=0.0052 6$LC=0.00062 9$MC=0.000112 16                               
+ 99TCS G  NC=1.76E-5 24$OC=1.12E-6 10                                           
+ 99TC cG M         |a(K)exp=0.0057 {i6} from 1969Ba54                           
+ 99TC  G 620.03     40.229   11                                                 
+ 99TC cG RI        From I|g=0.21 {i3} (1968Va14), I|g=0.217 {i22} (1969Co18),   
+ 99TC2cG I|g=0.19 {i6} (1974HeYW), I|g=0.26 {i2} (1982Si16),                    
+ 99TC3cG I|g=0.232 {i11} (1990Me15), I|g=0.24 {i4} (1992Go22),                  
+ 99TC4cG I|g=0.222 {i12} (2003La27), recommended in 2014Ch12.                   
+ 99TC  G 986.44     40.012   4                                                  
+ 99TC  L 1141.862  143/2+                                                       
+ 99TC  B                0.111 3            7.372 14                             
+ 99TCS B EAV=60.0 3                                                             
+ 99TC  G 380.13     80.086   7 M1+E2     1.3     6      0.010411                
+ 99TCS G  KC=0.0091 9$LC=0.00111 14$MC=0.000202 25                              
+ 99TCS G  NC=3.2E-5 4$OC=1.94E-6 16                                             
+ 99TC cG MR        from |a(K)exp.                                               
+ 99TC cG M         |a(K)exp=0.009 {i1} (1969Ba54)                               
+ 99TC  G 960.754   200.78    2                                                  
+ 99TC  G 1001.343  180.045   4                                                  
+ 99TC2 G KC=0.00183                                                             
+ 99TC cG M$M2(+E3) based on |a(K)exp=0.0018 {i3} from 1969Ba54 is not           
+ 99TC2cG consistent with |D|p                                                   
+ 99TC  L 1172.22   103/2+                                                       
+ 99TC  B             0.0019  4             8.93  10                             
+ 99TCS B EAV=50.8 3                                                             
+ 99TC  G 410.27    100.016   3 M1(+E2)   0.5     5     0.0073 8                 
+ 99TCS G  KC=0.0064 6$LC=0.00075 10$MC=0.000136 17                              
+ 99TCS G  NC=2.2E-5 3$OC=1.41E-6 11                                             
+ 99TC cG RI        from 1990Me15                                                
+ 99TC cG MR        from |a(K)exp.                                               
+ 99TC cG M         |a(K)exp=0.006 {i1} from 1969Ba54                            
+ 99TC  L    1198.88 5(3/2-)                                                     
+ 99TC  B               0.0021 4            8.67   9                             
+ 99TCS B EAV=42.9 3                                                             
+ 99TC  G 689.6     9 0.0035  15                                                 
+ 99TC cG E,RI      from 1969Co18.                                               
+ 99TC  G 1017.0    5 0.005   2                                                  
+ 99TC cG E$from 1992Go22. Not in 1990Me15                                       
+ 99TC  G 1056.20    50.0089  7                                                  
+

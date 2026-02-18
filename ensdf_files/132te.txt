@@ -1,0 +1,79 @@
+132I     132TE B- DECAY (3.204 D)      1966FR02,1981YO02         05NDS    200504
+132I   H TYP=FUL$AUT=YU. KHAZOV, A.A. RODIONOV AND S. SAKHAROV, BALRAJ SINGH$   
+132I 2 H CIT=NDS 104, 497 (2005)$CUT=10-Feb-2005$                               
+132I  c  1966Fr02: measured E|g, I|g, ce                                        
+132I  c  1981Yo02: measured |g, I|g, |g|g(t), |g|g(|q), oriented nuclei,        
+132I 2c  |b|g coin.                                                             
+132I  c  Others:                                                                
+132I  c  Lifetimes by |g|g(t), |b|g(t): 1999Da03, 1969Ho42, 1967Sc39, 1966Go23  
+132I  c  |g, ce: 1979Bo26, 1965Si17, 1965Iv01, 1960Ga06, 1958Ch28, 1951La25     
+132I  c  |b: 1999Fo01, 1965Iv01, 1951La25, 1943Bo02                             
+132I  c  Moments: 1969Si06 (|g|g(|q,H),g factor);                               
+132I 2c  1979Oo01 (|g|g(|q,V{-zz},t),|b|g(|q,H,V{-zz},t)),                      
+132I 3c  deduced |m and Q                                                       
+132I  c  T{-1/2}({+132}Te isotope): 1983Wa26, 1971BaZW, 1965An05, 1958Ch28,     
+132I 2c  1956Fl15, 1951Pa33, 1939Ab02, 1939Ha13                                 
+132I  cG E$ From 1966Fr02                                                       
+132I  cG RI$ From 1981Yo02                                                      
+132I  cG M,MR$ From ce data (1966Fr02);                                         
+132I 2cG |a(exp)=Ice/I|g normalized to |a(K)(228.16|g)=0.0807 (E2,1968Ha53)     
+132TE  P 0.0          0+               3.204 D   13             518       4     
+132I   N 0.88      3           1.0       1.0                                    
+132I  cN NR$ From |SI(|g+ce)=100 to g.s.                                        
+132I  PN                                                                     3  
+132I   L 0.0          4+                                                        
+132I   L   49.72   1  3+               7.14 NS   14                             
+132I  cL T$ from 1981Yo02, used plastic with lead-iron filter for 228|g         
+132I 2cL and NaI(Tl) or Ge(Li) for 49|g, integral and differential directional  
+132I 3cL correlations of 228|g - 49|g cascade confirms value obtained. Others:  
+132I 4cL 0.96 ns {I4} (1966Go23, used two plastics for registration of          
+132I 5cL 232|b,|g-28.5 X-ray), 0.93 ns {I4}(1969Ho42), 2.94 ns {I11} (1999Da03, 
+132I 6cL used two NaI(Tl) detectors for detecting 228|g and 49|g)               
+132I  cL G$+0.74 {I10} was obtained using IPAC (1969Si06) and                   
+132I 2cL T{-1/2}=0.951 ns {i22}. However, |g|g(t) and |g|g(|q,t) measurements   
+132I 3cL of 1981Yo02 cast doubt on this value, since 1981Yo02 obtain            
+132I 4cL T{-1/2}=7.14 ns {I14} (g=0.099 {I13}) and perturbation coefficient of  
+132I 5cL 0.41 {I9} for the 228-49 cascade as opposed to unperturbed correlation 
+132I 6cL assumed by 1969Si06.                                                   
+132I 2 L MOME2=0.23 7 (1979Oo01)                                                
+132I  cL G$for T{-1/2}=0.951 ns {I22}; 0.099 {I13} for T{-1/2}=7.14 ns          
+132I   G 49.72     1  17.0   3  M1                       5.71                C  
+132I 2 G EKC=4.9 4 $ EL1C=0.59 4 $ EL2C=0.046 4 $ EL3C=0.0114 20                
+132I S G KC=4.90 15$LC=0.645 20$MC=0.129 4                                      
+132I  DG $ ICE(K)=1026 57, ICE(L1)=124 6, ICE(L2)=9.7 6, ICE(L3)=2.4 4,         
+132I 2DG ICE(|SL)=135 4 (1966Fr02)                                              
+132I  cG           |d(E2/M1): <0.02 from |g|g(|q) and ce data                   
+132I   L   161.52   7 2+               3.57 NS   7                              
+132I  cL T$ from 1981Yo02, used plastic for 116 |g and NaI(Tl) for 111          
+132I 2cL |g, uranium shield used non-simultaneously for each detector. Others:  
+132I 3cL 0.55 ns {I4} 1999Da03, used two CsI for detecting 116 |g and 111 |g,   
+132I 4cL fig. 1b corresponds to half-life of 1.14 ns                            
+132I   G 111.76    8  1.98   5 M1+E2     0.58    10      0.71  5             C  
+132I 2 G EKC=0.57 4 $ EL1C=0.074 9 $ EL2C=0.029 8 $ EL3C=0.025 8                
+132I  DG $ ICE(K)=13.9 5, ICE(L1)=1.8 2, ICE(L2)=0.7 2, ICE(L3)=0.6 2,          
+132I 2DG ICE(|SL)=2.9 3 (1966Fr02); L1, L2 AND L3 MAY CONTAIN CONTAMINANTS      
+132I   L   277.86   6 1+               1.42 NS   2                              
+132I  cL T$ from 1981Yo02. Others: 1.42 ns {I5} (1966Go23), 1.41 ns {I7}        
+132I xcL (1969Ho42)                                                             
+132I 2 L MOMM1=+1.88 14 $ MOME2=-0.170 6 (1979Oo01)                             
+132I  cL $ Configuration=|pd{-5/2}|nd{-3/2}{+-1}                                
+132I   B 239       4  100    4               4.69 4                         C   
+132I S B EAV=    59.8 12                                                        
+132I  cB E$ from 1999Fo01. Others: 215 {I4} 1965Iv01                            
+132I   G 116.30    8  2.23   6  M1+E2    0.60    9       0.64  4             C  
+132I 2 G EKC=0.49 4 $ EL1C=0.051 15 $ EL2C LT 0.022 $ EL3C LT 0.015             
+132I  DG $ ICE(K)=13.6 6, ICE(L1)=1.4 4, ICE(L2)<0.6, ICE(L3)<0.4,              
+132I 2DG ICE(|SL)=2.9 3 (1966Fr02)                                              
+132I  cG $Ordering of 116-112 cascade firmly established by 1981Yo02            
+132I S G KC=0.509 19$LC=0.102 11$MC=0.0210 22$NC+=0.0050 5                      
+132I   G 228.16    6  100    2 E2                       0.100                C  
+132I  cG E$other: 228.327 {I3} (curved-crystal spectrometer,1979Bo26)           
+132I  cG $(228|g)(50|g)(|q): A{-2}=-0.061 {I4}, A{-4}=+0.011 {I7} (1969Si06);   
+132I 2cG perturbation coefficient assumed as 1                                  
+132I  cG $(228|g)(50|g)(|q): A{-2}=-0.031 {I7}, A{-4}=-0.009 {I13} (1981Yo02);  
+132I 2cG perturbation coefficient=0.44 {I16}, 0.41 {I9} (1981Yo02)              
+132I S G KC=0.0807                                                              
+132I 2 G EL1C=0.0092 11 $ EL2C=0.0037 6 $ EL3C=0.0037 8                         
+132I  DG $ ICE(K)=100 4, ICE(L1)=11.4 12, ICE(L2)=4.6 8, ICE(L3)=4.6 10,        
+132I 2DG ICE(|SL)=20 1 (1966Fr02)                                               
+

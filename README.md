@@ -1,6 +1,6 @@
 # Decay Scheme Plotter
 
-Python script to parse and plot decay schemes from Evaluated Nuclear Structure Data ([ENSDF](https://www.nndc.bnl.gov/ensdf/)) files. 
+Python tool to parse and plot decay schemes from Evaluated Nuclear Structure Data ([ENSDF](https://www.nndc.bnl.gov/ensdf/)) files. 
 
 ## How to use
 
@@ -16,4 +16,6 @@ Gamma intensities are per decay (or per 100 decays since they are in percent). T
 
 ## Limitations
 
-Only looks good for beta minus decay at the moment. Might be extended to other decay modes in the future. 
+Sometimes daughter excited states go missing if the gamma transition from that state has a low probability. Be careful with internal conversion coefficients as well. Compare with other sources before using plots made using this tool. 
+
+Only works properly for beta minus decay at the moment. Might be extended to other decay modes in the future. 

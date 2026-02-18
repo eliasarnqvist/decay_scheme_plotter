@@ -22,8 +22,9 @@ def parse_ensdf_levels_gammas(path):
         lines = f.readlines()
     # print(lines[0])
 
-    Ng = 0
-    Ndec = 0
+    Ng = None
+    Ndec = None
+    E = None
 
     # Iterate over lines in the file
     for i, line in enumerate(lines):
@@ -34,21 +35,16 @@ def parse_ensdf_levels_gammas(path):
         rec = line[5:8].strip()
         # print(rec, line)
 
-        # First line for parent and daughter
+        # First line for daughter
         if i == 0:
             # Daughter properties
             daughter_A = line[:3]
-            daughter_sy = line[3].upper() + line[4].lower()
+            daughter_sy = (line[3].upper() + line[4].lower()).strip()
             daughter_Z = getattr(pt, daughter_sy).number
-            # Parent properties
-            parent_A = line[9:12]
-            parent_sy = line[12].upper() + line[13].lower()
-            parent_Z = getattr(pt, parent_sy).number
 
-            parent.update({"d_A":daughter_A, "d_sy":daughter_sy, "d_Z":daughter_Z,
-                           "p_A":parent_A, "p_sy":parent_sy, "p_Z":parent_Z})
+            parent.update({"d_A":daughter_A, "d_sy":daughter_sy, "d_Z":daughter_Z})
 
-        # Look for the parent first
+        # Look for the parent
         if rec == "P":
             # Energy in keV
             E_p = float(line[9:19].strip())
@@ -59,7 +55,13 @@ def parse_ensdf_levels_gammas(path):
             # Q-value in keV
             Q_p = float(line[64:74].strip())
 
-            parent.update({"E":E_p, "JP":JP_p, "T12":T12_p, "Q":Q_p})
+            # Parent properties
+            parent_A = line[:3]
+            parent_sy = (line[3].upper() + line[4].lower()).strip()
+            parent_Z = getattr(pt, parent_sy).number
+
+            parent.update({"E":E_p, "JP":JP_p, "T12":T12_p, "Q":Q_p,
+                           "p_A":parent_A, "p_sy":parent_sy, "p_Z":parent_Z})
         
         # Look for the normalization
         if rec == "N":
@@ -108,7 +110,8 @@ def parse_ensdf_levels_gammas(path):
             # Mixing ratio
             MR = line[41:49].strip()
 
-            levels[E]["G"].append({"Eg":Eg, "Ig":Ig, "M":M, "MR":MR})
+            if E != None:
+                levels[E]["G"].append({"Eg":Eg, "Ig":Ig, "M":M, "MR":MR})
 
     # print(levels)
     # print(all_levels)
@@ -142,8 +145,10 @@ def limit_intensity(levels, I_min=0, I_max=100):
 
 def plot_decay_scheme(data_path, I_min=0, I_max=100, save_path="figure"):
     # Open, parse, and save data file contents
-    levels, parent = parse_ensdf_levels_gammas(data_path)
-    levels, all_levels = limit_intensity(levels, I_min, I_max)
+    all_levels, parent = parse_ensdf_levels_gammas(data_path)
+    levels, list_levels = limit_intensity(all_levels, I_min, I_max)
+
+    # print(all_levels)
 
     plt.close('all')
     inch_to_mm = 25.4
@@ -168,9 +173,12 @@ def plot_decay_scheme(data_path, I_min=0, I_max=100, save_path="figure"):
 
     x_min = 0.0
     x_max = 1.0
-    x_gamma_min = 0.15
+    x_gamma_min = 0.2
     x_gamma_max = 0.55
-    x_step = (x_gamma_max - x_gamma_min) / (number_of_gammas - 1)
+    if number_of_gammas >= 2:
+        x_step = (x_gamma_max - x_gamma_min) / (number_of_gammas - 1)
+    else:
+        x_step = 0
     x_pos = x_gamma_min
 
     x_pad_left = 0.3
@@ -178,7 +186,7 @@ def plot_decay_scheme(data_path, I_min=0, I_max=100, save_path="figure"):
     ax.set_xlim([-x_pad_left*x_max, (1+x_pad_right)*x_max])
 
     # for key, value in levels.items():
-    for E in all_levels:
+    for E in list_levels:
         # E = key
         level = levels[E]
         JP = r"${}^{}$".format(level["JP"][:-1], level["JP"][-1])
@@ -186,7 +194,7 @@ def plot_decay_scheme(data_path, I_min=0, I_max=100, save_path="figure"):
         try:
             Idec = level["Idec"]
         except KeyError:
-            Idec = "?"
+            Idec = None
 
         if E == 0.0:
             ax.hlines(E, x_min, x_max, color="black", linewidth=1.5, zorder=4)
@@ -215,15 +223,17 @@ def plot_decay_scheme(data_path, I_min=0, I_max=100, save_path="figure"):
 
         x_pos_decay_arrow_left = -x_pad_left * x_max + 0.04
         x_pos_decay_arrow_right = -0.01
-        ax.annotate(None, xy=(x_pos_decay_arrow_right, E), xytext=(x_pos_decay_arrow_left, E), 
+        if Idec != None:
+            ax.annotate(None, xy=(x_pos_decay_arrow_right, E), xytext=(x_pos_decay_arrow_left, E), 
                     arrowprops=dict(arrowstyle="->", lw=1.0, shrinkA=0, shrinkB=0),
                     zorder=4)
-        ax.text(x_pos_decay_arrow_right-0.04, E, f"{Idec}\%", ha="right", va="bottom", fontsize=8, zorder=4)
+            ax.text(x_pos_decay_arrow_right-0.04, E, f"{Idec}\%", ha="right", va="bottom", fontsize=8, zorder=4)
+            y_lowest_feed = E
         ax.text(x_min+0.01, E, f"${JP}$", ha="left", va="bottom", fontsize=8, zorder=4)
     
     y_pad_over_space = 0.15
     y_pos_arrow = (1 + y_pad_over - y_pad_over_space) * energy_span
-    ax.annotate(None, xy=(x_pos_decay_arrow_left, 0.0), xytext=(x_pos_decay_arrow_left, y_pos_arrow), 
+    ax.annotate(None, xy=(x_pos_decay_arrow_left, y_lowest_feed), xytext=(x_pos_decay_arrow_left, y_pos_arrow), 
                 arrowprops=dict(arrowstyle="-", lw=1.0, shrinkA=0, shrinkB=0),
                 zorder=4)
     ax.hlines(y_pos_arrow, x_pos_decay_arrow_left-0.003, x_pos_decay_arrow_right, color="black", linewidth=1.5, zorder=4)
