@@ -261,8 +261,8 @@ def plot_decay_scheme(data_path, I_min=0, I_max=100, save_path="figure"):
 parser = argparse.ArgumentParser()
 parser.add_argument("-f", "--file", type=str, required=True, help="ENSDF file path")
 parser.add_argument("-s", "--save", type=str, default="figure", help="save path (default: 'figure')")
-parser.add_argument("-imin", "--imin", type=float, default=0.0, help="Minimum gamma intensity (default: 0.0)")
-parser.add_argument("-imax", "--imax", type=float, default=100.0, help="Maximum gamma intensity (default: 100.0)")
+parser.add_argument("-imin", "--imin", type=int, default=0.0, help="Minimum gamma intensity (default: 0.0)")
+parser.add_argument("-imax", "--imax", type=int, default=100.0, help="Maximum gamma intensity (default: 100.0)")
 args = parser.parse_args()
 
 # print(levels)
